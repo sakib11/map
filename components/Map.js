@@ -1,8 +1,6 @@
 import * as React from 'react';
-import { useState, useEffect, useMemo, useCallback } from 'react';
-import { render } from 'react-dom';
+import { useState, useEffect } from 'react';
 import MapGL, { Source, Layer } from 'react-map-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
 import { dataLayer } from '../utils/map-style';
 
 /**
