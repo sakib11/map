@@ -3,4 +3,31 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo,.nav_menu{
+    float: left;
+}
+
+.avatar_area{
+    float: right;
+}
+
+.logo {
+    width:42px;
+    height:61px;
+    position:relative;
+}
+
+.menu{
+    /* margin-top: 15px; */
+}
+
+.menu li{
+    float: left;
+    list-style-type: none;
+    margin-right: 15px;
+    background-color: green;
+    padding:5px;
 }
